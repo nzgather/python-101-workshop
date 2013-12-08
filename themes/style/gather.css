@@ -231,6 +231,15 @@
   color: #ccf0f0;
   z-index: 1;
 }
+.deck-container .slide .protip {
+  padding: .5em 1em;
+  margin-bottom: 1em;
+  color: #000;
+  background: #fff;
+  position: relative;
+  border: 1px solid #cde;
+}
+
 .deck-container .slide ::-moz-selection {
   background: #08455f;
   color: #fff;

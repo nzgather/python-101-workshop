@@ -32,1087 +32,509 @@
 
     <article class='slide title-slide'>
       <h1 class="n-flow">Python 101</h1>
-      <div class="instructor_holder">
-        <div class="row">
 
-          <div>
-            <h4>Presenting</h4>
-            <p><a href="http://twitter.com/tanya" target="_blank">@amatix</a></p>
-          </div>
+      <h4>Presenting</h4>
+      <p><a href="http://twitter.com/amatix" target="_blank">@amatix</a> (Rob Coup)</p>
 
-         <!--  <div>
-            <h4>Mentors</h4>
-            <p><a href="http://twitter.com/mgatland" target="_blank">@mgatland</a>, <a href="https://plus.google.com/u/0/115391244615856560905/posts" target="_blank">+Sunil Williams</a>, <a href="http://twitter.com/wombleton" target="_blank">@wombleton</a> and Bart Joy</p>
-          </div> -->
-
-        </div>
-      </div>
+<!--
+      <h4>Mentors</h4>
+      <p><a href="http://twitter.com/tanya" target="_blank">@tanya</a> (Tanya Gray)</p>
+-->
     </article>
 
-    <!-- SLIDE: Development Environment -->
-    <article class='slide title-slide'>
-        <h1>Title Slide</h1>
-    </article>
-
-    <!-- SLIDE: Web Browser -->
-    <article class='slide'>
-      <h2>1. Web Browser</h2>
-      <p>
-        Choose a modern web browser that has good development tools to help make building web pages easier.
-      </p>
-      <table class="browser-grid">
-        <tr>
-          <td>
-            <a href="https://www.google.com/chrome">
-              <img src="assets/chrome.png" width="200">
-            </a>
-          </td>
-          <td>
-            <a href="https://www.mozilla.org/en-US/firefox/fx/#desktop">
-              <img src="assets/firefox.png" width="200">
-            </a>
-          </td>
-          <td>
-            <a href="https://www.microsoft.com/canada/windows/internet-explorer/ie9/default.aspx">
-              <img src="assets/ie9.png" width="200">
-            </a>
-          </td>
-          <td>
-            <a href="http://www.opera.com/download/">
-              <img src="assets/opera.png" width="200">
-            </a>
-          </td>
-          <td>
-            <a href="https://www.apple.com/ca/safari/">
-              <img src="assets/safari.png" width="200">
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td><a href="https://www.google.com/chrome">Chrome</a></td>
-          <td><a href="https://www.mozilla.org/en-US/firefox/fx/#desktop">Firefox</a></td>
-          <td><a href="https://www.microsoft.com/canada/windows/internet-explorer/ie9/default.aspx">Internet Explorer</a></td>
-          <td><a href="http://www.opera.com/download/">Opera</a></td>
-          <td><a href="https://www.apple.com/ca/safari/">Safari</a></td>
-        </tr>
-      </table>
-    </article>
-
-    <!-- SLIDE: Code Editor -->
-    <article class='slide'>
-      <h2>2. Text Editor</h2>
-      <p>Although there are plenty of good text editors out there, none will help you learn as you go. Today we'll be using <a href="http://codepen.io/pen/">Codepen.io</a>, a text editor that allows you to see results as you type HTML and CSS.</p>
-
-      <img src="assets/codepen.png">
-    </article>
-
-    <article class='slide title-slide'>
-      <h1>Foundations of the Web</h1>
-    </article>
-
-    <article class='slide'>
-      <h2>What’s in a URL</h2>
-      <p class="focus"><span class="highlight h-1">protocol</span>://<span class="highlight h-2">server</span>/<span class="highlight h-3">path</span></p>
-      <ul>
-          <li><span class="highlight h-1">How</span> e.g. http</li>
-          <li><span class="highlight h-2">Where</span> e.g. gathergather.co.nz</li>
-          <li><span class="highlight h-3">What</span> e.g. /workshops</li>
-      </ul>
-    </article>
-
-    <article class='slide'>
-      <h2>What happens?</h2>
-      <img src="assets/diagram_http.png">
-    </article>
-
-    <article class='slide'>
-      <h2>DNS: A request bounces</h2>
-      <img src="assets/trace_route.png">
-    </article>
-
-    <article class='slide'>
-      <h2>How is the web "open"?</h2>
-      <p>There are a number of organisations that exist with the sole purpose of maintaining the "open-ness" of the web. What does that mean? Who are they?</p>
-      <ul>
-        <li>Web Standards — <a href="http://w3c.org">W3C</a></li>
-        <li>Net Neutrality — <a href="http://internetnz.net.nz">InternetNZ</a></li>
-      </ul>
-    </article>
-
-    <article class='slide title-slide'>
-      <h1>Net Neutrality</h1>
-    </article>
-
-    <article class='slide'>
-      <h2>All networks are equal</h2>
-      <p>There are political and economical gains to be made by treating networks differently:</p>
-      <p>(Why could these be considered a bad thing?)</p>
-    </article>
-
-    <article class='slide'>
-      <p class="focus vcenter">An ISP can charge extra to allow access to your favourite website, e.g. Facebook</p>
-    </article>
-
-    <article class='slide'>
-      <p class="focus vcenter">A government can censor access to information, e.g. North Korea</p>
-    </article>
-
-    <article class='slide'>
-      <p class="focus vcenter">Telecom, who owns the Southern Cross Cable, could slow down other ISPs' international requests</p>
-    </article>
-
-    <article class='slide'>
-      <h2>The solution</h2>
-      <p>Organisations, like <a href="http://internetnz.net.nz">InternetNZ</a>, promote the open web. This means that ISPs must treat all requests equally. They can't favour one network over another.</p>
-    </article>
 
 
     <article class='slide title-slide'>
-      <h1>Web Standards</h1>
+        <h1><img src="assets/python-logo.png" alt="Python" /></h1>
     </article>
 
 
-    <!-- SLIDE: The Web Triad -->
+
     <article class='slide'>
-      <h2>A basic webpage</h2>
-      <p>
-        A webpage is mainly built using 3 web languages (HTML, CSS + JS).
-      </p>
+        <h2>Goals!</h2>
+        <ol>
+          <li>Set up Python on your computer</li>
+          <li>Self-directed tutorial (with help!)</li>
+          <li>Review</li>
+          <li>Learn some more</li>
+          <li>Practise</li>
+        </ol>
     </article>
 
-    <article class="slide">
-      <h2><strong>HTML</strong> <small>(Hypertext Markup Language)</small> <br>
-          is the markup language.</h2>
-          <p><img src="assets/html.png"  /></p>
-          <p>It should define the <strong>semantic structure</strong>. Each tag has a specific <strong>purpose</strong>.</p>
-    </article>
 
-      <article class="slide">
-      <h2><strong>CSS</strong> <small>(Cascading Style Sheets)</small> <br>
-          is the style sheet language.</h2>
-          <p><img src="assets/html_css.png" /></p>
-          <p>It should define the <strong>appearance</strong>.</p>
-    </article>
 
-    <article class="slide">
-      <h2><strong>JavaScript</strong><br>
-          is the programming language.</h2>
-          <p><img src="assets/html_css_js.png" /></p>
-          <p>It should define responses to <strong>user interaction</strong>.</p>
-    </article>
-
-    <!-- new slide -->
     <article class='slide title-slide'>
-      <div class="vcenter">
-        <h1>Dive into HTML</h1>
-        <p>The structural layer</p>
-      </div>
+        <h1>Set up Python on your computer</h1>
     </article>
 
     <article class='slide'>
-        <h2>Let's play!</h2>
-
-      <div class='vcenter'>
-        <p>Let's <a href="http://codepen.io/pen/">open up a new pen</a> in a new tab.</p>
-
-        <div class="fake-thimble cf">
-        <div class="left">
-          <pre>
-&lt;img src="/grumpy-cat.png"&gt;<br>
-&lt;a href="#"&gt;I'm a link!&lt;/a&gt;
-          </pre>
-        </div>
-        <div class="right">
-          <div class="preview">
-            <img src="http://gathergather.co.nz/grumpy-cat.png">
-            <a href="#">I'm a link!</a>
-          </div>
-        </div>
-      </div>
-      </div>
-    </article>
-
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>HTML tags</h2>
-      <p>The structure of a webpage is defined by HTML <span class="keyword">tags</span>. <span class="highlight h-1">Angled brackets</span> denote tags, like this:</p>
-      <p class="centered vcenter" style="font-size: 3em;"><code><span class="highlight h-1">&lt;</span>img<span class="highlight h-1">&gt;</span></code></p>
-    </article>
-
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>HTML tags</h2>
-      <p>Tags typically come in <strong>pairs</strong> &mdash; an opening tag and a closing tag with a <span class="highlight h-1">forward slash</span>:</p>
-      <p class="centered" style="font-size: 3em;"><code>&lt;a&gt;&lt;<span class="highlight h-1">/</span>a&gt;</code></p>
-      <p class="sidenote">Some examples:</p>
-<pre style="width: 45%; float: left;">&lt;!DOCTYPE html&gt;
-<strong class="highlight h-1">&lt;html&gt;</strong>
-  &lt;head&gt;
-    &lt;title&gt; &lt;/title&gt;
-  &lt;/head&gt;
-  <strong class="highlight h-2">&lt;body&gt;</strong>
-  <strong class="highlight h-2">&lt;/body&gt;</strong>
-<strong class="highlight h-1">&lt;/html&gt;</strong></pre>
-<br clear="all" />
-    </article>
-
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>HTML tags</h2>
-      <p>Tags can be "nested" within other tags, try it for yourself:</p>
-      <p class="centered " style="font-size: 2.5em;"><code><span class="highlight h-1">&lt;a href="#"&gt;</span><br><span class="highlight h-2" style="font-size: 1.3em;">&lt;img src="/grumpy-cat.png"&gt;</span><br><span class="highlight h-1">&lt;/a&gt;</span></code></p>
-      <p class="centered sidenote">(This relationship is often referred to using the terms "<span class="highlight h-1">parent</span>" node and "<span class="highlight h-2">child</span>" nodes.)</p>
-      <br />
-<!--       <p class="sidenote" style="margin-bottom: 0px;">For example:</p>
-      <ul class="sidenote">
-        <li><code>&lt;title&gt;</code> is nested between opening and closing <code>&lt;head&gt;</code> tags so <code>&lt;head&gt;</code> is the parent node and <code>&lt;title&gt;</code> is the child node.</li>
-        <li>Going further, <code>&lt;head&gt;</code> is also (at the same time) a child node of <code>&lt;html&gt;</code>.</li>
-        <li>While <code>&lt;html&gt;</code> is the always the "root" node and has <strong>no</strong> parent nodes.</li>
-        <li>Notice too that <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> are on the same level. They are both child nodes of <code>&lt;html&gt;</code>.</li>
-      </ul>
-<pre style="width: 45%; float: left;">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    <strong>&lt;title&gt;</strong> <strong>&lt;/title&gt;</strong>
-  &lt;/head&gt;
-  &lt;body&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
-<pre style="width: 45%; float: right;">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  <strong>&lt;head&gt;</strong>
-    &lt;title&gt; &lt;/title&gt;
-  <strong>&lt;/head&gt;</strong>
-  &lt;body&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
-<br clear="all" /> -->
-
-    </article>
-
-        <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Formatting</h2>
-      <p>Whitespace through indentation (spaces) makes your more HTML human-readable.</p>
-<pre class='prettyprint'>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt; &lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</pre>
-      <p class="sidenote">(Later on, you might also notice how automatic colour coding in your code editor helps a lot too.)</p>
-    </article>
-
-        <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Formatting</h2>
-      <p>HTML was created for <span class="keyword">web browsers</span> to easily read (not humans).</p>
-      <p>So this makes perfect sense to a web browser:</p>
-<pre>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</pre>
-    </article>
-    
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>HTML content</h2>
-      <p>The human-viewable content of a HTML tag goes in between the opening and closing tags like this:</p>
-      <p class="centered" style="font-size: 3em;"><code>&lt;tag&gt;<span style="color: #333;">Content</span>&lt;/tag&gt;</code></p>
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;<strong>Home</strong>&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;<strong>
-    You are currently looking at index.html.
-  </strong>&lt;/body&gt;
-&lt;/html&gt;</pre>
-    </article>
-
-    <article class="slide">
-      <h2>Some more tags</h2>
-      <p>So now we know about <code>img</code> and <code>a</code>. Let's try: </p>
-      <pre>
-        &lt;h1&gt;Heading!&lt;/h1&gt;
-        <strong>&lt;strong&gt;Bold!&lt;/strong&gt;</strong>
-        <em>&lt;em&gt;Italics!&lt;/em&gt;</em>
-      </pre>
-
-    </article>
-
-        <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Void (or empty) HTML Tags</h2>
-      <p><span class="keyword">Void tags</span> don't format content &mdash; instead they are used to render or embed objects in our page.</p>
-      <p>These tags <strong>do not</strong> come in pairs like <code>h1</code> or <code>a</code> tags.</p>
-
-      <div class="fake-thimble cf">
-        <div class="left">
-          <pre>
-This text &lt;br&gt;goes over&lt;br&gt;several lines.
-          </pre>
-        </div>
-        <div class="right">
-          <div class="preview">
-            This text <br>goes over<br> several lines.
-          </div>
-        </div>
-      </div>
-
-    </article>
-
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Void (or empty) HTML Tags</h2>
-      <div class="cheatsheet">
-        <div>
-          <h3>Void tags</h3>
-          <code>&lt;hr&gt;</code> &mdash; horizontal rule<br />
-          <code>&lt;br&gt;</code> &mdash; line break<br />
-          <code>&lt;input&gt;</code> &mdash; text input boxes<br />
-          <hr />
-          <code>&lt;img&gt;</code> &mdash; an image <br />
-        </div>
-      </div>
-      <div class="fake-thimble cf">
-        <div class="left">
-          <pre>
-&lt;hr&gt;
-Hello&lt;br&gt;world
-&lt;input type="text"&gt;
-&lt;img src="http://gathergather.co.nz/grumpy-cat.png"&gt;
-          </pre>
-        </div>
-        <div class="right">
-          <div class="preview">
-            <hr>
-            Hello<br>world
-            <input type="text">
-            <img src="http://gathergather.co.nz/grumpy-cat.png">
-          </div>
-        </div>
-      </div>
-
-    </article>
-
-        <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Review</h2>
+      <h2>1. Set up Python</h2>
+      <p>We're going to use Python 2.7 for this workshop.</p>
+      <p>Python is available for:</p>
       <ul>
-        <li><strong>HTML tags</strong> define <em>structure</em>.</li>
-        <li><strong>Text between opening &amp; closing tags</strong> define <em>content</em>.</li>
-        <li><strong>Void HTML tags</strong> render special objects that are sometimes <em>sort of like content</em> or <em>seem structural</em> depending on the void tag.</li>
+        <li>Windows <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Windows_set_up_Python">bit.ly/1boQfxe</a></li>
+        <li>Mac OS X<a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/OSX_set_up_Python">bit.ly/1eZgdfc</a></li>
+        <li>Linux <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Linux_set_up_Python">bit.ly/1dcCxR2</a></li>
       </ul>
-<!--       <p>Consider the <code>img</code> tag. Not very exciting right?</p>
-<pre>&lt;p&gt;Kicking up HTML a notch.&lt;/p&gt;
-<strong>&lt;img&gt;</strong>
-&lt;p&gt;Do you agree?&lt;/p&gt;</pre> -->
+      <p>Get from <a href="http://www.python.org">python.org</a>.</p>
+      <div class="protip"><strong>PRO TIP:</strong> Python 2 and Python 3 are <em>not</em> the same - pick one and stick to it!</div>
     </article>
 
-
-   <!-- new slide -->
-    <article class='slide title-slide'>
-      <h1>Going deeper</h1>
-    </article>
-
-          <article class='slide'>
-        <h2>Parts of tag</h2>
-      <p class="focus"><code>&lt;<span class="highlight h-1">a</span> <span class="highlight h-2">href</span>="<span class="highlight h-3">#</span>"&gt;<span class="highlight h-4">This is a link!</span>&lt;/a&gt;</code></p>
+    <article class='slide'>
+      <h2>2. Prepare a Text Editor</h2>
+      <p>Install a good text editor for writing and saving Python code during the workshop.</p>
+      <p>Recommendations: </p>
       <ul>
-          <li><span class="highlight h-1">Tag Name</span></li>
-          <li><span class="highlight h-2">Attribute Name</span> </li>
-          <li><span class="highlight h-3">Attribute Value</span></li>
-          <li><span class="highlight h-4">Text Node</span></li>
+        <li>Windows: Notepad++ <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Windows_text_editor">bit.ly/1gPohQF</a></li>
+        <li>Mac OS X: Smultron <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/OSX_text_editor">bit.ly/1boQvwi</a></li>
+        <li>Linux: Gedit <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Linux_text_editor">bit.ly/J2EVkz</a></li>
       </ul>
+      <div class="protip"><strong>PRO TIP:</strong> You need to set your editor to use <em>spaces</em> to indent.</div>
     </article>
 
-    <!-- SLIDE: HTML -->
     <article class='slide'>
-      <h2>Attributes</h2>
-      <p>Sometimes we need to define data that we don't see right away but it's used by the browser to help render special content like hyperlinks, images, or video.</p>
-<pre>&lt;img <strong class="highlight h-1">src="http://gathergather.co.nz/grumpy-cat.png"</strong>&gt;</pre>
-    </article>
-
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Working with images</h2>
-      <pre class="prettyprint">&lt;img <span class="highlight h-1">src</span>="<span class="highlight h-2">http://gathergather.co.nz/grumpy-cat.png</span>"&gt;</pre>
+      <h2>3. Starting and exiting Python</h2>
+      <p>Open a command prompt:
       <ul>
-        <li><code>src</code> is the <em class="highlight h-1">attribute</em></li>
-        <li><code>http://gathergather.co.nz/grumpy-cat.png</code> is the <em class="highlight h-2">value</em> of that attribute</li>
+        <li>Windows: Start... Search... <code>cmd</code></li>
+        <li>Mac OS X: Start the 'Terminal' application</li>
       </ul>
-      <p>With an <code>img</code> tag, the value of the <code>src</code> attribute tells the browser what the <em>url source</em> of our image is.</p>
-    </article>
+      <p>To start Python, type <code>python</code>. You should see something like:
+      <pre>Python 2.7.1 (r271:86832, ...) on win32
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt;</pre>
 
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Working with images</h2>
-      <p>Tags can have more than one attribute, some <strong>required</strong> (like <code>src</code>) and others are <strong>optional</strong>:</p>
-      <ul style="margin-top: -1em;">
-        <li><code>width</code> and <code>height</code> tell the browser what dimension to <em>display</em> the image at.</li>
-      </ul>
+      <p>Exit the Python prompt by typing <code>exit()</code>. Now you're back at the command prompt.</p>
     </article>
 
     <article class='slide'>
-      <h2>Working with images</h2>
-      <p class="sidenote">For example, without <code>width</code> and <code>height</code> attributes, the browser displays image at original size.</p>
-      <pre class="prettyprint">&lt;img src="http://gathergather.co.nz/grumpy-cat.png"&gt;</pre>
-      <img src="http://gathergather.co.nz/grumpy-cat.png" />
+      <h2>4. Running Python code from a file</h2>
+      <p>Start your text editor.</p>
+      <p>Add the following to a new, blank text file:</p>
+      <pre>print "Hello World!"</pre>
+      <p>Save the file as <code>hello.py</code> in your Desktop directory. The <code>.py</code> extension indicates the file contains Python code.</p>
+      <p>Start a command prompt and <code>cd Desktop</code> to move to the directory where we saved your file.</p>
+      <p><code>python hello.py</code> should show:</p>
+      <pre>Hello World!</pre>
     </article>
 
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Working with images</h2>
-      <p class="sidenote">Now with a manipulated width and height (about 50% smaller):</p>
-      <pre class="prettyprint">&lt;img src="http://gathergather.co.nz/grumpy-cat.png" width="320" height="262"&gt;</pre>
-      <img src="http://gathergather.co.nz/grumpy-cat.png" width="320" height="262" />
-    </article>
 
-        <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2>Working with images</h2>
-        <p>Another optional image attribute:</p>
-        <ul style="margin-top: -1em;">
-          <li><code>alt</code> is <em>alternative text</em> to display to visually impaired web visitors using screen readers. It also shows up when there's a "broken image" due to typos or moved files.</li>
-        </ul>
-<pre>&lt;img
-  src="http://gathergather.co.nz/grumpy-cat.png"
-  width="160"
-  height="131"
-  alt="Grumpy Cat"&gt;</pre>
-    </article>
 
-    <!-- SLIDE: HTML -->
-    <article class='slide slide-list'>
-      <h2>Hyperlinks</h2>
-      <p>The <code>&lt;a&gt;</code> <em>anchor</em> tag is used to tell the browser that we want to link to somewhere else on our site or on the web.</p>
-      <p>The <code>a</code> tag comes in pairs and the content between the opening and closing tags is what is displayed as the link text (typically underlined).</p>
-      <br />
-      <pre class="prettyprint">Visit &lt;a&gt;Gather Workshops&lt;/a&gt;.</pre>
-      <p>Visit <a>Gather Workshops</a>.</p>
-      <br />
-      <p class="sidenote">But wait! This link doesn't take me anywhere!</p>
-    </article>
-
-    <!-- SLIDE: HTML -->
-    <article class='slide slide-list'>
-      <h2>Hyperlinks</h2>
-      <p>We need a way of setting the URL <span class="sidenote">(e.g. <code>http://gathergather.co.nz/workshops/</code>)</span> that the browser will request when someone clicks on the link.</p>
-      <p>Once again, we need to use <span class="keyword">attributes</span>.</p>
-      <pre class="prettyprint">Visit &lt;a <strong>href="http://gathergather.co.nz/workshops/"</strong>&gt;Gather Workshops&lt;/a&gt;.</pre>
-      <p>Visit <a href="http://gathergather.co.nz/workshops/" target="_blank">Gather Workshops</a>.</p>
-      <ul>
-        <li><code>href</code> is the <em>attribute</em></li>
-        <li><code>http://gathergather.co.nz/workshops/</code> is the <em>value</em> of that attribute</li>
-        <li>And remember that the <strong>human-viewable text goes in between</strong> the opening and closing <code>a</code> tags.</li>
-      </ul>
-    </article>
-
-        <!-- CSS -->
     <article class='slide slide-subhead title-slide'>
       <div class="vcenter">
-        <h1>CSS basics</h1>
-        <h3 class="align-center">Adding some <em class="super-style">style</em> to your pages</h3>
+        <h1>Self-directed Tutorial</h1>
+        <h3>With help! 60-90 minutes</h3>
+        <h3><a href="https://github.com/nzgather/python-101-workshop/blob/master/resources/tutorial.md">bit.ly/IKqqAS</a></h3>
       </div>
     </article>
 
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS:
-        <span class="underline">C</span>ascading
-        <span class="underline">S</span>tyle
-        <span class="underline">S</span>heets
-      </h2>
-        <p><strong>Cascading</strong> means the styles of outer elements often apply to the styles of inner elements.</p>
-        <p><strong>Style</strong> means all visual elements of a page, like:
-          <ul class="no-bullets">
-            <li style="color: #2F67B7;">colour</li>
-            <li style="padding-left: 80px;">position</li>
-            <li style="font-size: 80px; line-height: 70px;">size</li>
-            <li style="border: 1px dashed red;">borders</li>
-            <li class="hover-example">and even interactions like hovering</li>
-          </ul>
-        </p>
-    </article>
 
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS selectors and properties</h2>
-      <p>Here's a CSS declaration dissected:</p>
-
-<div class="splitter cf">
-  <div class="left">
-    <pre>
-h1 {
-  font-size: 24px;
-  line-height: 1.4;
-}
-    </pre>
-  </div>
-  <div class="right">
-    <div class="preview">
-      <img src="assets/css_parts.png" />
-    </div>
-  </div>
-</div>
-    </article>
-
-        <article class='slide slide-list'>
-      <h2>Our first selector: body</h2>
-      <p><code>body</code> is a selector that applies styles to the entire page, and all of its content. All elements in the page will <em>inherit</em> the styles you define.</p>
-
-<pre>
-    <span class="omg">body</span> {
-     font-family: sans-serif;
-    }
-</pre>
-
-    </article>
-
-      <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Our first style: background-color</h2>
-      <p><code>background-color</code> is a property that can be applied to any tag, such as the <code>body</code>.</p>
-
-<pre>
-    body {
-     <span class="omg">background-color: blue;</span>
-    }
-</pre>
-
-    </article>
-
-        <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Custom colours</h2>
-      <p>Often, the CSS colours "gray", "blue", or "purple" are boring and limiting. You can define your own custom colour using hex colours.</p>
-<pre>h1 {
-  color: <strong>#026873;</strong> /* a unique shade of blue */
-}</pre>
-
-    <p>Visit <a href="http://www.colorpicker.com/">ColorPicker.com</a> if you don't have Photoshop.</p>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Challenge!</h2>
-      <h4>Solve the riddle by changing the page's background colour</h4>
-      <p>View <code><a href="http://codepen.io/anon/pen/CiuGA" target="_blank">this Codepen</a></code> in your browser. Your challenge is to change the background colour, so that the answer to the riddle will <strong>magically appear</strong>!</p>
-<div class="fake-thimble cf">
-  <div class="left">
-    <pre>
-body {
-  background: black;
-}
-    </pre>
-  </div>
-  <div class="right">
-    <div class="preview" style="background: black; height: 180px;">
-    </div>
-  </div>
-</div>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Changing the font colour</h2>
-      <p>Take a look at <a href="http://codepen.io/anon/pen/fiEmC" target="_blank">this Codepen</a></p>
-      <p>Now the text is a bit hard to read on the gray background. Because the <code>&lt;body&gt;</code> tag is the highest possible visible HTML tag, the <code>body</code> selector will also allow us to target the font color on the <em>entire</em> page.</p>
-<pre>body { background-color: gray; <strong>color: white;</strong> }</pre>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Changing the font family</h2>
-      <p>The web has a number of fonts that are considered "web safe". Some of the most used fonts are:</p>
-      <ul>
-        <li style="font-family: Arial;">Arial</li>
-        <li style="font-family: Verdana;">Verdana</li>
-        <li style="font-family: 'Times New Roman';">Times New Roman</li>
-        <li style="font-family: Georgia;">Georgia</li>
-        <li style="font-family: Courier;">Courier</li>
-      </ul>
-      <p>Let's add a bit of contrast to our headers by using the Courier font on them.</p>
-<pre>h1 { font-family: Courier; }
-h2 { font-family: Courier; }</pre>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Changing the font family</h2>
-      <p>Not all fonts are installed on all computers so it's recommended that you use a list of fonts. If the first font in the list isn't available, it will try to use the next.</p>
-<pre>body { <strong>font-family: Helvetica, Verdana, Arial, sans-serif;</strong> }</pre>
-      <p class="sidenote">(Notice how the font-family for the headers are still Courier? That's the "cascading" part of Cascading Style Sheets in action. Inline styles take precedence, then innermost tags, then outer tags.)</p>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Changing the font size</h2>
-      <p>Font sizes can be defined in pixels (px).</p>
-      <ul>
-        <li style="font-size: 20px;">20px</li>
-        <li style="font-size: 45px;">45px</li>
-      </ul>
-      <p>Headers have default font-sizes defined by the browser. Let's override them. </p>
-<pre>h1 { <strong>font-size: 25px;</strong> }
-h2 { <strong>font-size: 22px;</strong> }</pre>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Changing the font weight</h2>
-      <p>In its simplest form, there are 2 weights:</p>
-      <ul>
-        <li style="font-weight: normal;">normal</li>
-        <li style="font-weight: bold;">bold</li>
-      </ul>
-      <p>By default, headers are already bolded. Let's remove the bold by applying the <em>normal</em> font weight on them.</p>
-<pre>h1 { <strong>font-weight: normal;</strong> }
-h2 { <strong>font-weight: normal;</strong> }</pre>
-    </article>
-
-    <article class='slide slide-list'>
-      <h2>Formatting CSS</h2>
-      <p>As with HTML, extra whitespace and line breaks add to readability.</p>
-      <p>Our current CSS can be written like this:</p>
-<pre class="prettyprint lang-css">
-  body {
-    background-color: gray;
-    color: white;
-    font-family: Helvetica, Verdana, Arial, sans-serif;
-  }
-
-  h1 {
-    font-family: Courier;
-    font-size: 25px;
-    font-weight: normal;
-  }
-
-  h2 {
-    font-family: Courier;
-    font-size: 22px;
-    font-weight: normal;
-  }
-</pre>
-    </article>
-
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS interactions for links</h2>
-      <p>CSS is also able to handle some basic UI interactions in our sites, such as allowing a mouse over or "hover" state on various elements. This is frequently done with items such as links.</p>
-      <p>As part of your selector, you need to use the <code>:hover</code> <span class="keyword">pseudo selector</span>.</p>
-
-<pre>
-a {
-  background-color: black;
-  color: white;
-}
-
-<span class="omg">a:hover {
-  color: red;
-}</span>
-</pre>
-
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS classes</h2>
-      <p>Wait! What happens when we add another link to the page and it's not part of our navigation? <a href="http://codepen.io/anon/pen/Bvkwi" target="_blank">Open Codepen</a></p>
-<pre>
-&lt;a href="index.html"&gt;Home&lt;/a&gt;
-&lt;a href="about.html"&gt;About&lt;/a&gt;
-&lt;a href="contact.html"&gt;Contact&lt;/a&gt;
-
-&lt;p&gt;Follow me on
- <strong> &lt;a href="http://twitter.com/nzgather&gt;Twitter&lt;/a&gt;</strong>!
-&lt;/p&gt;
-</pre>
-<pre>
-a {
-  background-color: black;
-  color: white;
-}
-
-a:hover {
-  background-color: purple;
-}
-</pre>
-    </article>
-
-   <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS classes</h2>
-      <p>If you know that several elements are going to have similiar styles, use CSS classes! Once you define one CSS class, you can apply it over and over again!</p>
-      <ul>
-        <li>Use a <strong>period</strong> (<code>.</code>) to define CSS selectors that are classes.<br />
-          e.g. <code>.nav_button</code></li>
-        <li>Then apply that class to any element using the <code>class</code> attribute.<br />
-          e.g. <code>class="nav_button"</code></li>
-      </ul>
-
-<pre>
-&lt;a <strong>class="nav_button"</strong>&gt;Home&lt;/a&gt;
-</pre>
-
-<pre>
-<strong>.nav_button</strong> {
-  font-family: Georgia;
-}
-</pre>
-
-    </article>
-
-   <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS classes</h2>
-      <p>Let's apply a "nav_button" CSS class to our current navigation links:</p>
-      <pre>
-&lt;a <strong>class="nav_button"</strong> href="index.html"&gt;Home&lt;/a&gt;
-&lt;a <strong>class="nav_button"</strong> href="about.html"&gt;About&lt;/a&gt;
-&lt;a <strong>class="nav_button"</strong> href="contact.html"&gt;Contact&lt;/a&gt;
-
-&lt;p&gt;Follow me on
-  &lt;a href="http://twitter.com/nzgather" target="_blank"&gt;Twitter&lt;/a&gt;!
-&lt;/p&gt;
-</pre>
-    </article>
-
-        <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS ids</h2>
-      <p>CSS classes are great when you want to re-apply the same style to multiple HTML elements but sometimes you need to only target an HTML container <strong>once</strong>. This is where an <span class="keyword">ID</span> is useful.</p>
-      <ul>
-        <li>Use a <strong>hash</strong> (<code>#</code>) to define CSS selectors that are IDs.<br />
-          e.g. <code>#container</code></li>
-        <li>Use the <code>id</code> attribute to apply the styles to that element.<br />
-          e.g. <code>id="container"</code><br />
-        </li>
-      </ul>
-      <p class="sidenote"><strong>Important!</strong> You should only have <strong>one</strong> instance of an ID per page. Any more can cause unexpected things to happen with your CSS &mdash; and later, JavaScript.</p>
-    </article>
-
-        <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>CSS ids</h2>
-      <p>Let's add <code>#container</code> and apply the id to the <code>div</code> container immediately after the opening <code>&lt;body&gt;</code> tag in <code>index.html</code>.</p>
-<pre>
-#container {
-  margin: 0 auto 0 auto;
-  width: 960px;
-}
-</pre>
-<pre>
-&lt;body&gt;
-  &lt;div id="container"&gt;
-
-  &lt;/div&gt;
-&lt;/body&gt;
-</pre>
-    </article>
-
-    <article class="slide">
-      <h2>CSS Selectors Overview</h2>
-
-      <ul class="focus">
-          <li>Elements (tags)</li>
-          <li>Classes</li>
-          <li>Pseudo/State</li>
-          <li>IDs</li>
-      </ul>
-    </article>
 
     <article class='slide title-slide'>
-      <h1>Like a pro!</h1>
+        <h1>Review</h1>
     </article>
+
+
 
     <article class='slide'>
-      <h2>Download the ZIP</h2>
-      <p>We're done playing, it's time to work with some real files.</p>
-      <p><a href="assets/Starter.zip">Download to your desktop.</a></p>
-    </article>
-
-    <!-- SLIDE: HTML -->
-    <article class='slide'>
-      <h2><code>&lt;head&gt;</code> vs <code>&lt;body&gt;</code></h2>
-      <ul class="spacey_list">
-        <li>
-          What happens when I change the content in the <code>&lt;title&gt;</code> tag?
-        </li>
-        <li>
-          What's the difference between putting a tag in-between the <code>&lt;head&gt;</code> tag versus the <code>&lt;body&gt;</code> tag?
-        </li>
-      </ul>
-    </article>
-
-        <article class='slide slide-list'>
-      <h2>Generic Container Tags</h2>
-      <p>Sometimes content you might want to group together (and treat differently with CSS) shouldn't be defined as a <code>h1</code> or <code>h2</code> or even a <code>p</code> paragraph. There are two kinds of generic containers available:</p>
+      <h2>Maths</h2>
       <ul>
-        <li><code>span</code> - An <span class="keyword">inline</span> container.<br />
-          Good for highlighting keywords like I did in this bullet.</li>
-        <li><code>div</code> - A <span class="keyword">block</span> container.<br />
-          Much like a paragraph, it creates a line break above and below to create a box.</li>
+        <li>Addition <code>+</code></li>
+        <li>Subtraction <code>-</code></li>
+        <li>Multiplication <code>*</code></li>
+        <li>Division <code>/</code>
+          <pre>1 / 2
+1.0 / 2
+3/4 + 1/4
+3.0/4 + 1.0/4</pre></li>
+        <li>Order of operations <code>2 * (3 + 1)</code></li>
       </ul>
-<pre>&lt;div&gt;I'm a div!&lt;/div&gt;
-&lt;div&gt;I'm another div!&lt;/div&gt;
-</pre>
     </article>
 
-<!--     <article class='slide slide-list'>
-      <h2>Semantic HTML Tags</h2>
-      <p>Historically, when making non-trivial websites, it required nesting lots of <code>div</code> tags within <code>div</code> tags (within <code>div</code> tags!) like this:</p>
-<pre>&lt;div&gt;
-  &lt;div&gt;
-    &lt;div&gt;Home&lt;/div&gt;
-    &lt;div&gt;About&lt;/div&gt;
-    &lt;div&gt;Contact&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  Welcome to my blog!
-  &lt;div&gt;[...Blog Post...]&lt;/div&gt;
-  &lt;div&gt;[...Blog Post...]&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  [...Sidebar Ad...]
-&lt;/div&gt;
-&lt;div&gt;
-  Copyright 2012
-&lt;/div&gt;
-</pre>
-    </article> -->
 
-    <article class='slide slide-list'>
-      <h2>Semantic HTML Tags</h2>
-      <p>There are an increasing number of semantic tags that better describe larger blocks of content such as: <code>header</code>, <code>footer</code>, <code>nav</code>, <code>section</code>, <code>article</code>, and <code>aside</code>.</p>
-<pre><strong>&lt;header&gt;</strong>
-<strong>  &lt;nav&gt;</strong>
-    &lt;a href="#"&gt;Home&lt;/a&gt;
-    &lt;a href="#"&gt;About&lt;/a&gt;
-    &lt;a href="#"&gt;Contact&lt;/a&gt;
-  <strong>&lt;/nav&gt;</strong>
-<strong>&lt;/header&gt;</strong>
-<strong>&lt;section&gt;</strong>
-  Welcome to my blog!
-  <strong>&lt;article&gt;</strong>[...Blog Post...]<strong>&lt;/article&gt;</strong>
-  <strong>&lt;article&gt;</strong>[...Blog Post...]<strong>&lt;/article&gt;</strong>
-<strong>&lt;/section&gt;</strong>
-<strong>&lt;aside&gt;</strong>
-  [...Sidebar Ad...]
-<strong>&lt;/aside&gt;</strong>
-<strong>&lt;footer&gt;</strong>
-  Copyright 2012
-<strong>&lt;/footer&gt;</strong>
-</pre>
-    </article>
 
-    <article class='slide slide-list'>
-      <h2>Semantic HTML Tags</h2>
-      <p>There are two reasons we use semantic HTML tags:</p>
-      <ol>
-        <li>To indicate the kind of content</li>
-        <li>To indicate the structure of the page</li>
-      </ol>
-      <p>This helps <span class="keyword">web crawlers</span> from search engines like Google or Bing better understand your content.</p>
-    </article>
-
-    <!-- SLIDE: HTML -->
     <article class='slide'>
-      <h2>Exercise #1 &mdash; Reading the structure of a webpage</h2>
-      <img src="assets/nzherald.png">
+      <h2>Types and Functions</h2>
+      <p>Find what data type something is using <code>type()</code></p>
+      <p>Functions make work re-usable</p>
+      <ul>
+        <li>Function name</li>
+        <li>Input "arguments"</li>
+        <li>Output "return value"</li>
+      </ul>
     </article>
 
 
-    <!-- SLIDE: HTML -->
+
     <article class='slide'>
-      <h2>Exercise #1 &mdash; Reading the structure of a webpage</h2>
-      <div class="cheatsheet">
-        <div>
-          <h3>Section Formatting</h3>
-          <code>&lt;blockquote&gt;</code> &mdash; a quoted section<br />
-          <code>&lt;article&gt;</code> &mdash; a self contained piece of content<br />
-          <code>&lt;nav&gt;</code> &mdash; the navigation of a section<br />
-          <code>&lt;header&gt;</code> &mdash; the header of a section<br />
-          <code>&lt;footer&gt;</code> &mdash; the footer of a section<br />
-        </div>
-        <div>
-          <h3>Hierarchy</h3>
-          <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc to <code>&lt;h6&gt;</code> &mdash; heading levels 1 to 6<br />
-          <code>&lt;p&gt;</code> &mdash; paragraph<br />
-        </div>
-        <div>
-          <h3>Text Formatting</h3>
-          <code>&lt;em&gt;</code> &mdash; Emphasis (often italic)<br />
-          <code>&lt;strong&gt;</code> &mdash; Strong Emphasis (often bold)<br />
-        </div>
-        <div>
-          <h3>Special Types</h3>
-          <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code> &mdash; Lists<br />
-          <code>&lt;a&gt;</code> &mdash; Links<br />
-          <code>&lt;img&gt;</code> &mdash; Embedded Image<br />
-        </div>
+      <h2>Variables</h2>
+      <p>Just like maths, except any data type.</p>
+      <pre>type(4)
+x = 4
+x
+type(x)
+2 * x</pre>
+      <p>Use descriptive variable names.</p>
+      <div class="protip"><strong>PRO TIP:</strong> Pick <em>one</em> of <code>snake_case_naming</code> or <code>camelCaseNaming</code>.</div>
+    </article>
+
+
+
+    <article class='slide'>
+      <h2>Strings</h2>
+      <p>Are text, surrounded by balanced quotes (<code>"</code> or <code>'</code>)</p>
+      <pre>type("Hello")
+type(1)
+type("1")</pre>
+      <p>Concatenate strings with <code>"Hello" + "World"</code></p>
+      <p>Print strings with <code>print "Hello"</code></p>
+      <p>Convert other types to strings using <code>str("Hello")</code></p>
+      <p>Find out how long a string is with <code>len("Hello")</code></p>
+      <p>Multiply strings with <code>"Hello" * 5</code></p>
+    </article>
+
+    <article class='slide'>
+      <h2>Strings</h2>
+      <p>Escape quotes with <code>'I\'m a happy camper'</code></p>
+      <p><code>""</code> is an empty string.</p>
+      <p>To get a new line use <code>print "One\nTwo"</code>
+      <p>For multi-line strings you can use:
+        <pre>"""I am
+a long
+string"""</pre></p>
+    </article>
+
+
+
+    <article class='slide'>
+      <h2>Booleans</h2>
+      <p><code>True</code> and <code>False</code></p>
+      <p>Test equality using <code>==</code></p>
+      <div class="protip"><strong>IMPORTANT:</strong> <code>=</code> is assignment, <code>==</code> is comparison</div>
+      <p>Other comparisions: <code>&lt; &lt;= != &gt;= &gt;</code></p>
+      <p>Test for containment:
+        <pre>"H" in "Hello"
+"W" not in "World"</pre>
+    </article>
+
+
+
+    <article class='slide'>
+      <h2>Flow control</h2>
+      <p>Use <code>if</code> statements to make decisions and conditionally execute code.</p>
+      <pre>colour = "orange"
+if colour == "green" or colour == "red":
+    print "Christmas colour!"
+elif colour == "black" or colour == "orange":
+    print "Halloween colour!"
+elif colour == "pink":
+    print "Valentine's Day colour!"
+else:
+    print "Some other colour!"
+</pre>
+      <div class="protip"><strong>PRO TIP:</strong> Use the <code>tab</code> key to indent code blocks <strong>4</strong> spaces.</div>
+    </article>
+
+    <article class='slide'>
+      <h2>Flow control</h2>
+      <p>Logically combine two expressions</p>
+      <p>With <code>and</code>, <em>both</em> must be True</p>
+      <p>With <code>or</code>, <em>either</em> can be True</p>
+      <pre>temperature = 29
+if temperature &gt; 15 and temperature &lt; 25:
+    print "It's nice and cozy in here!"
+else:
+    print "Too extreme for me."
+</pre>
+    </article>
+
+    <article class='slide'>
+      <h2>Writing functions</h2>
+      <pre>>>> def add(x, y):
+...     result = x + y
+...     return result
+...
+print add(1234, 5678)</pre>
+      <p>Remember to indent the code block inside your function.</p>
+      <p>Functions don't need to have arguments, or need to return a value.</p>
+    </article>
+
+
+
+
+    <article class='slide title-slide'>
+        <h1>New Stuff</h1>
+    </article>
+
+
+
+
+    <article class='slide title-slide'>
+        <h1>Lists <code>[]</code></h1>
+    </article>
+
+    <article class='slide'>
+      <h2>Lists</h2>
+      <p>Store data where order matters.</p>
+      <p>Indexed starting with <em>0</em>.</p>
+
+      <pre>>>> my_list = []
+>>> my_list
+[]
+>>> your_list = ["a", "b", "c", 1, 2, 3]
+>>> your_list
+['a', 'b', 'c', 1, 2, 3]</pre>
+    </article>
+
+    <article class='slide'>
+      <h2>Access and adding elements</h2>
+      <p><code>my_list.append('new')</code> to add to the end.</p>
+      <p><code>my_list.insert(0, 'new')</code> to insert at the start.</p>
+      <p><code>my_list[0] = 'new'</code> to change the first element.</p>
+      <p><code>len(my_list)</code> to get the length.</p>
+      <p><code>'new' in my_list</code> to check containment.</p>
+    </article>
+
+    <article class='slide'>
+      <h2>Access and Slicing</h2>
+      <p><code>my_list[0]</code> to get the first element.</p>
+      <p><code>my_list[-1]</code> to get the last element.</p>
+      <p><code>my_list[:3]</code> to get the first 3 elements.</p>
+      <p><code>my_list[3:]</code> to get everything <em>after</em> the first 3 elements.</p>
+    </article>
+
+    <article class='slide'>
+      <h2>Strings are a lot like Lists</h2>
+      <pre>>>> my_string = "Hello World"
+>>> my_string[0]
+'H'
+>>> my_string[:5]
+'Hello'
+>>> my_string[6:]
+'World'
+>>> my_string = my_string[:6] + "Jessica"
+>>> my_string
+'Hello Jessica'</pre>
+      <p>Big difference is you can't <em>change</em> strings.</p>
+    </article>
+
+
+
+    <article class='slide title-slide'>
+        <h1>Loops and more flow control</h1>
+    </article>
+
+    <article class='slide'>
+      <h2>For loops</h2>
+      <p>Use a <code>for</code> loop to do something to every element in a list.</p>
+      <pre>>>> names = ["Jessica", "Adam", "Liz"]
+>>> for name in names:
+...     print name
+...
+Jessica
+Adam
+Liz</pre>
+    </article>
+
+    <article class='slide'>
+      <h2><code>if</code> statements inside <code>for</code> loops</h2>
+      <p>Use to build up a list.</p>
+      <pre>>>> vowel_names = []
+>>> for name in ["Alice", "Bob", "Cassie", "Deb", "Ellen"]:
+...     if name[0] in "AEIOU":
+...         vowel_names.append(name)
+...
+>>> print vowel_names
+['Alice', 'Ellen']</pre>
+    </article>
+
+    <article class='slide'>
+      <h2><code>for</code> loops inside <code>for</code> loops</h2>
+      <pre>>>> letters = ["a", "b", "c"]
+>>> numbers = [1, 2, 3]
+>>> for letter in letters:
+...     for number in numbers:
+...         print letter * number
+...
+a
+aa
+aaa
+b
+bb
+bbb
+c
+cc
+ccc</pre>
+      <p>Order of your loops matters!</p>
+    </article>
+
+    <article class='slide'>
+      <h2>Useful list and loop functions</h2>
+      <p><code>my_list.sort()</code> to sort a list.</p>
+      <p><code>min(my_list)</code> and <code>max(my_list)</code> to get extremes.</p>
+      <p><code>range()</code> to generate a range of numbers:
+        <pre>>>> range(5)
+[0, 1, 2, 3, 4]</pre></p>
+    </article>
+
+    <article class='slide'>
+      <h2><code>while</code> loops</h2>
+      <p>Keep looping as long as a condition is <code>True</code>.</p>
+      <pre>>>> i = 0
+>>> while i &lt; 5:
+...     print i
+...     i = i + 1
+...
+0
+1
+2
+3
+4</pre>
+    </article>
+
+    <article class='slide'>
+      <h2><code>break</code></h2>
+      <p>Use <code>break</code> to break out of a <code>for</code> or <code>while</code> loop early.</p>
+      <pre>>>> i = 0
+>>> while True:
+...     print i
+...     i = i + 1
+...     if i > 3:
+...         break
+0
+1
+2
+3</pre>
+    </article>
+
+    <article class='slide'>
+      <h2>Get user input</h2>
+      <p>Use <code>raw_input()</code> to prompt the user for a string.</p>
+      <pre>>>> input = raw_input("Please type something? ")
+>>> print "You said: " + input
+
+Please type something? Hello
+You said: Hello
+</pre>
+    </article>
+
+
+
+    <article class='slide title-slide'>
+        <h1>Dictionaries <code>{}</code></h1>
+    </article>
+
+    <article class='slide'>
+      <h2>Dictionaries</h2>
+      <p>Use dictionaries to store key/value pairs.</p>
+      <p>Dictionaries do not guarantee ordering.</p>
+      <p>A given key can only have one value, but multiple keys can have the same value.</p>
+
+      <pre>>>> my_dict = {}
+>>> my_dict
+{}
+>>> your_dict = {"Alice" : "chocolate", "Bob" : "strawberry", "Cara" : "mint chip"}
+>>> your_dict
+{'Bob': 'strawberry', 'Cara': 'mint chip', 'Alice': 'chocolate'}</pre>
+    </article>
+
+    <article class='slide'>
+      <h2>Access and adding elements</h2>
+      <p><code>your_dict["Alice"]</code> to get the value for a key.</p>
+      <p><code>your_dict["Dora"] = "vanilla"</code> to set or replace a key &amp; value.</p>
+      <p><code>'Alice' in your_dict</code> to check containment.</p>
+      <p><code>len(your_dict)</code> to get the number of items.</p>
+      <p><code>your_dict.get("Eve")</code> to get the value for a key, without throwing an error if it doesn't exist.</p>
+    </article>
+
+
+
+    <article class='slide title-slide'>
+        <h1>Modules</h1>
+    </article>
+
+    <article class='slide'>
+      <h2>Modules</h2>
+      <p>Don't write it twice! Modules allow us to organise and re-use code.</p>
+      <p>Don't write it at all! Python has 'batteries included', and there are thousands of modules for every conceivable purpose.</p>
+      <p>Each <code>.py</code> file is a module.</p>
+    </article>
+
+    <article class='slide'>
+      <h2>Imports</h2>
+      <p>Use <code>import</code> to access a module.</p>
+      <pre>>>> import random
+>>> random.randint(1, 10)
+5
+>>> random.choice(["red", "green", "blue", "yellow"])
+'green'</pre>
+      <p><code>len()</code>, <code>type()</code>, <code>min()</code>, <code>max()</code>, <code>range()</code>, <code>str()</code> are all "builtins" and don't need importing.</p>
+    </article>
+
+
+
+    <article class='slide slide-subhead title-slide'>
+      <div class="vcenter">
+        <h1>NZ Regions</h1>
+        <h3><a href="">nz_regions.py</a></h3>
       </div>
     </article>
 
 
-    <!-- SLIDE: HTML -->
-    <article class='slide slide-list'>
-      <h2>Exercise #2 &mdash; Writing HTML</h2>
-      <ol class="spacey_list">
-        <li>Identify the semantic elements in the marked up image of the NZHerald (in your notes)</li>
-        <li>Write the HTML</li>
-        <li>Fill in with dummy content.</span>
-        </li>
-      </ol>
-      <h4>Ask the mentors for help if you need it!</h4>
-    </article>
 
-    <!-- SLIDE: HTML -->
-    <article class='slide slide-list'>
-      <h2>HTML reference</h2>
-      <ul class="spacey_list">
-        <li>Download a <a href="http://woorkup.com/2009/12/16/html5-visual-cheat-sheet-reloaded/" target="_blank">cheatsheet of HTML tags</a>.</li>
-        <li>Try looking up individual tags using the HTML sections of <a href="https://developer.mozilla.org/en-US/docs/HTML/Element" target="_blank">Mozilla's Developer Network</a> or the <a href="http://www.w3.org/community/webed/wiki/HTML/Elements" target="_blank">W3C</a> for further breakdown.</li>
-        <li>For further exploration, use the <a href="http://hackasaurus.org/en-US/goggles/install/" target="_blank">Hackasaurus X-Ray Goggles</a> to look at any webpage.</li>
-        <li>And don't forget the "view source" option of your web browser!</li>
-      </ul>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide'>
-      <h2>Laying out webpages with CSS</h2>
-      <p>Layout is one of the most challenging things to do in CSS because it requires you to think about the whole picture and plan ahead.</p>
-      <p>To create a standard 2-column layout requires us to give dimensions to some of our content, and position it accordingly.</p>
+    <article class='slide title-slide'>
+        <h1>Practise</h1>
     </article>
 
     <article class='slide'>
-      <p class="vcenter"><img src="assets/wireframe.png" alt="" /></p>
-    </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Assigning widths</h2>
-      <p>It is important to know the overall width of your site so you can select column widths for the main <code>&lt;section&gt;</code> and the <code>&lt;aside&gt;</code> sidebar that will make sense.</p>
-      <p>Let's go ahead and set the <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code> to be 960 pixels wide. We'll add a gray border too, so we can see what's going on.</p>
-<pre>
-header {
-  <strong>width: 960px;</strong>
-  border: 1px solid gray;
-}
-
-footer {
-  <strong>width: 960px;</strong>
-  border: 1px solid gray;
-}
-</pre>
-    </article>
-
-        <!-- SLIDE: CSS -->
-  <article class="slide">
-    <h2>The Box Model</h2>
-    <img src="assets/box-model.png" class="vcenter">
-  </article>
-
-    <!-- SLIDE: CSS -->
-    <article class='slide slide-list'>
-      <h2>Assigning widths</h2>
-      <p>If our site is 960px wide, we need to ensure that our columns don't exceed 960 - <strong>including margins!</strong> (e.g. 640 + 20 + 300 = 960)</p>
-<pre>
-section {
-  <strong>width: 640px;</strong>
-  padding: 30px;
-  border: 1px solid gray;
-}
-
-aside {
-  <strong>margin-left: 20px;</strong>
-  <strong>width: 300px;</strong>
-  border: 1px solid gray;
-}
-</pre>
-      <p class="sidenote"><strong>PRO TIP:</strong> Historically, padding wrecked havoc on our math. To avoid headaches, use the <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/" target="_blank">box-sizing property</a> for every website you make to make sure your math adds up.</p>
-<pre>
-/* apply a natural box layout model to all elements */
-<strong>* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}</strong>
-</pre>
-    </article>
-
-            <article class='slide slide-list'>
-      <h2>Where to put your CSS</h2>
-      <p>CSS lives in a <code>.css</code> file and is linked to from the <code>&lt;head&gt;</code> of your HTML page</p>
-<!-- <pre>
-&lt;head&gt;
-  &lt;style&gt;
-    <span class="omg">Style goes here!!!!!!!</span>
-  &lt;/style&gt;
-&lt;/head&gt;
-</pre> -->
-
-<pre>
-&lt;head&gt;
-  &lt;link rel="stylesheet" href="<span class="omg">stylesheet.css</span>"&gt;
-&lt;/head&gt;
-</pre>
-
-<!--       <p>Inside <span class="omg">stylesheet.css</span>, there is <strong>no</strong> <code>&lt;style&gt;</code> tag.</p>
- -->
+      <h2>Practise</h2>
+      <p>CodingBat exercises: <a href="http://codingbat.com/home/bostonpythonworkshop@gmail.com/Saturday">bit.ly/Iz7zJA</a></p>
     </article>
 
 
-    <!-- SLIDE: HTML -->
+    <article class='slide title-slide'>
+        <h1>What next?</h1>
+    </article>
+
     <article class='slide'>
-      <h2>Peeking under the hood!</h2>
-      <p>I can <strong>View Page Source</strong> on any website to see the raw HTML behind the scenes.</p>
-      <p class="centered"><img src="assets/view-source.png" alt="view source" /></p>
+      <h2>Keep Learning</h2>
+      <p>Think Python: <a href="http://openbookproject.net/thinkcs/python/english2e/">openbookproject.net/thinkcs/python/english2e/</a></p>
+      <p>Learn Python the Hard Way: <a href="http://learnpythonthehardway.org">learnpythonthehardway.org</a></p>
+      <p>Learn Python with Games: <a href="http://inventwithpython.com/chapters/">inventwithpython.com/chapters/</a></p>
+      <p>The ofﬁcial Python tutorial: <a href="http://docs.python.org/tutorial/">docs.python.org/tutorial/</a></p>
     </article>
 
-            <!-- SLIDE: CSS -->
     <article class='slide'>
-      <h2>Inspecting the DOM</h2>
-      <p>You can use <strong>Inspect Element</strong> to see <strong>DOM</strong> (Document Object Model). This is what the browser does with HTML.</p>
-      <p class="sidenote">(I suggest that you do this yourself any time you see something you like so you can reverse-engineer it.)</p>
-      <p class="centered"><img src="assets/inspect-element.png" alt="view source" /></p>
-    </article>
-
-        <!-- SLIDE: CSS -->
-    <article class='slide'>
-      <h2>CSS reference</h2>
+      <h2>Using Python</h2>
       <ul>
-        <li>View a <a href="http://www.cheatography.com/davechild/cheat-sheets/css2/" target="_blank">cheatsheet of CSS selectors and properties</a>.</li>
-        <li>Try looking up individual selectors and properties using the CSS section of <a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference" target="_blank">Mozilla's Developer Network</a> for further breakdown.</li>
-        <li>And don't forget the "inspect element" option!</li>
+        <li>do data analysis and plotting</li>
+        <li>make a website</li>
+        <li>write games</li>
+        <li>social media</li>
+        <li>make and remix music</li>
+        <li>homework</li>
+        <li>participate in space exploration!</li>
+        <li>analyze census data!</li>
+        <li>help your community!</li>
+        <li>save the world!</li>
       </ul>
     </article>
 
-
-   <!-- SLIDE: HTML -->
-    <article class='slide slide-list'>
-      <h2>Exercise #3</h2>
-      <p>Use this time to start your own webpage.</p>
-      <ol>
-        <li>Draw a wireframe</li>
-        <li>"Mark up" the HTML on the wireframe</li>
-        <li>Write the HTML</li>
-        <li>Write the CSS</li>
-      </ol>
-      <h3>Got questions? Ask the mentors to help you out!</h3>
+    <article class='slide'>
+      <h2>Local Pythonistas</h2>
+      <p>NZ Python Users Group has monthly meetups: <a href="http://nzpug.org/">nzpug.org</a></p>
+      <p>Kiwi PyCon is on every year: <a href="http://nz.pycon.org">nz.pycon.org</a></p>
     </article>
+
 
     <article class='slide'>
       <h2>Thank you!</h2>
-      <p>This presentation was forked from <a href="https://github.com/jbuck/SCP-HTML-CSS/">SCP-HTML-CSS</a> (Originally written by <a href="http://mozilla.org">Mozilla</a>) and modified by <a href="https://github.com/organizations/nzgather">Gather</a> to be used with New Zealand students.</p>
+      <p>The content for this workshop was adapted from the <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6">Boston Python Workshop</a> (CC-BY) by <a href="https://github.com/organizations/nzgather">Gather</a> to be used with New Zealand students.</p>
 
       <p>Visit <a href="http://gathergather.co.nz/community">Gather Community</a> for help from our mentors after today!</p>
 
       <p>This workshop was made possible by <a href="http://internetnz.org.nz">InternetNZ</a></p>
     </article>
-
 <!-- End slides. -->
 
 
