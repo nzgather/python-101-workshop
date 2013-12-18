@@ -1,3 +1,6 @@
+[<img src="../assets/gather_workshops_logo.svg" alt="Gather Workshops" style="width:15em" />](http://gathergather.co.nz/workshops/)
+[<img src="../assets/python-logo-generic.svg" alt="Gather Workshops" style="width:20em; margin-left:2em;" />](http://www.python.org)
+
 # Welcome to the Tutorial!
 
 This tutorial covers several core programming concepts that we'll build upon during the following interactive lecture. It will take 1-2 hours to complete. There's a break in the middle, and exercises at the middle and end to help review the material.
@@ -513,7 +516,7 @@ Type 4 spaces, and then type <code>print "Six is greater than five!"</code>. Hit
 <pre>
 >>> if 6 > 5:
 ...      print "Six is greater than five!"
-... 
+...
 Six is greater than five!
 </pre>
 
@@ -729,4 +732,18 @@ Functions don't have to return anything, if you don't want them to. They usually
 
 Congratulations! You've learned about and practiced executing Python scripts, booleans, conditionals, and if/else blocks, and you've written your own Python functions. This is a huge, huge accomplishment!
 
-Take a break, stretch, meet some neighbors, and ask the staff if you have any questions about this material. 
+Take a break, stretch, meet some neighbors, and ask the staff if you have any questions about this material.
+
+## Extra Practise
+
+If you're bored, have extra time, or want to have some more practise, there are some exercises on CodingBat to explore what we've learned further.
+
+* [CodingBat exercises](https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/CodingBat_Using_Codingbat) (bit.ly/1ghX8IU)
+* [More CodingBat exercises](http://codingbat.com/home/bostonpythonworkshop@gmail.com/SaturdayMorning) (bit.ly/1aLXlM9)
+* A quick [guide to using CodingBat](https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/CodingBat_Using_Codingbat) (bit.ly/1fafrfX)
+
+
+---------------------------------------
+
+Adapted from [Boston Python Workshop](https://openhatch.org/wiki/Boston_Python_Workshop_6/Data_types) content
+by [Gather](https://github.com/organizations/nzgather). CC-BY
