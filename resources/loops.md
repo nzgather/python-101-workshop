@@ -1,5 +1,4 @@
-[<img src="../assets/gather_workshops_logo.svg" alt="Gather Workshops" style="width:15em" />](http://gathergather.co.nz/workshops/)
-[<img src="../assets/python-logo-generic.svg" alt="Gather Workshops" style="width:20em; margin-left:2em;" />](http://www.python.org)
+[Gather Workshops](http://gathergather.co.nz/workshops/) - [Python](http://www.python.org)
 
 # Loops Cheat Sheet
 
