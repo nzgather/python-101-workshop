@@ -13,7 +13,8 @@ Use a `for` loop to do something to every element in a list.
 ...
 Jessica
 Adam
-Liz```
+Liz
+```
 
 ```
 >>> names = ["Jessica", "Adam", "Liz"]
@@ -22,7 +23,8 @@ Liz```
 ...
 Hello Jessica
 Hello Adam
-Hello Liz```
+Hello Liz
+```
 
 ###  `if` statements inside `for` loop
 
@@ -32,7 +34,8 @@ Hello Liz```
 ...         print(name + " starts with a vowel.")
 ...
 Alice starts with a vowel.
-Ellen starts with a vowel.```
+Ellen starts with a vowel.
+```
 
 ### Building up a list
 
@@ -45,7 +48,8 @@ Sometimes you want to start with a new empty list, and only add to that list if 
 ...         vowel_names.append(name)
 ...
 >>> print(vowel_names)
-['Alice', 'Ellen']```
+['Alice', 'Ellen']
+```
 
 ### Using a counter
 
@@ -80,7 +84,8 @@ bb
 bbb
 c
 cc
-ccc```
+ccc
+```
 
 The order of the `for` loops matters. Compare the above example with this one:
 
@@ -97,7 +102,8 @@ bb
 cc
 aaa
 bbb
-ccc```
+ccc
+```
 
 ##  Useful functions related to lists and for loops
 
@@ -175,7 +181,8 @@ Please type something> How are you?
 You said: How are you?
 Please type something> Quit
 Goodbye!
->>> ```
+>>>
+```
 
 ---------------------------------------
 
