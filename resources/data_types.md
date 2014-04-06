@@ -28,7 +28,7 @@
 
 * Strings are bits of text, and contain characters like numbers, letters, whitespace, and punctuation.
 * String are surrounded by quotes.
-* Use triple-quotes (""") to create whitespace-preserving multi-line strings.
+* Use triple-quotes (`"""`) to create whitespace-preserving multi-line strings.
 
 ```
 >>> "Hello"
