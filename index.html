@@ -69,12 +69,12 @@
 
     <article class='slide'>
       <h2>1. Set up Python</h2>
-      <p>We're going to use Python 2.7 for this workshop.</p>
+      <p>We're going to use Python 3.3 for this workshop.</p>
       <p>Python is available for:</p>
       <ul>
-        <li>Windows <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Windows_set_up_Python">bit.ly/1boQfxe</a></li>
-        <li>Mac OS X <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/OSX_set_up_Python">bit.ly/1eZgdfc</a></li>
-        <li>Linux <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Linux_set_up_Python">bit.ly/1dcCxR2</a></li>
+        <li>Windows <a href="https://openhatch.org/wiki/Boston_Python_Workshop_8/Friday/Windows_set_up_Python">bit.ly/1mS4rtB</a></li>
+        <li>Mac OS X <a href="https://openhatch.org/wiki/Boston_Python_Workshop_8/Friday/OSX_set_up_Python">bit.ly/1lHStCH</a></li>
+        <li>Linux <a href="https://openhatch.org/wiki/Boston_Python_Workshop_8/Friday/Linux_set_up_Python">bit.ly/1dZrSie</a></li>
       </ul>
       <p>Get from <a href="http://www.python.org">python.org</a>.</p>
       <div class="protip"><strong>PRO TIP:</strong> Python 2 and Python 3 are <em>not</em> the same - pick one and stick to it!</div>
@@ -85,9 +85,9 @@
       <p>Install a good text editor for writing and saving Python code during the workshop.</p>
       <p>Recommendations: </p>
       <ul>
-        <li>Windows: Notepad++ <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Windows_text_editor">bit.ly/1gPohQF</a></li>
-        <li>Mac OS X: Smultron <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/OSX_text_editor">bit.ly/1boQvwi</a></li>
-        <li>Linux: Gedit <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6/Friday/Linux_text_editor">bit.ly/J2EVkz</a></li>
+        <li>Windows: Notepad++ <a href="https://openhatch.org/wiki/Boston_Python_Workshop_8/Friday/Windows_text_editor">bit.ly/1oCavbz</a></li>
+        <li>Mac OS X: Smultron <a href="https://openhatch.org/wiki/Boston_Python_Workshop_8/Friday/OSX_text_editor">bit.ly/1lHSy9w</a></li>
+        <li>Linux: Gedit <a href="https://openhatch.org/wiki/Boston_Python_Workshop_8/Friday/Linux_text_editor">bit.ly/1gy5Hde</a></li>
       </ul>
       <div class="protip"><strong>PRO TIP:</strong> You need to set your editor to use <em>spaces</em> to indent.</div>
     </article>
@@ -97,10 +97,11 @@
       <p>Open a command prompt:
       <ul>
         <li>Windows: Start... Search... <code>cmd</code></li>
-        <li>Mac OS X: Start the 'Terminal' application</li>
+        <li>OS X/Linux: Start the 'Terminal' application</li>
       </ul>
-      <p>To start Python, type <code>python</code>. You should see something like:
-      <pre>Python 2.7.1 (r271:86832, ...) on win32
+      <p>To start Python, type <code>python3</code>. You should see something a bit like this:
+      <pre>Python 3.3.4 (default, Apr  6 2014, 10:27:50)
+[GCC 4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.38)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt;</pre>
 
@@ -111,10 +112,10 @@ Type "help", "copyright", "credits" or "license" for more information.
       <h2>4. Running Python code from a file</h2>
       <p>Start your text editor.</p>
       <p>Add the following to a new, blank text file:</p>
-      <pre>print "Hello World!"</pre>
+      <pre>print("Hello World!")</pre>
       <p>Save the file as <code>hello.py</code> in your Desktop directory. The <code>.py</code> extension indicates the file contains Python code.</p>
       <p>Start a command prompt and <code>cd Desktop</code> to move to the directory where we saved your file.</p>
-      <p><code>python hello.py</code> should show:</p>
+      <p><code>python3 hello.py</code> should show:</p>
       <pre>Hello World!</pre>
     </article>
 
@@ -124,7 +125,7 @@ Type "help", "copyright", "credits" or "license" for more information.
       <div class="vcenter">
         <h1>Self-directed Tutorial</h1>
         <h3>With help! 60-90 minutes</h3>
-        <h3><a href="https://github.com/nzgather/python-101-workshop/blob/master/resources/tutorial.md">bit.ly/IKqqAS</a></h3>
+        <h3><a href="https://github.com/nzgather/python-101-workshop/blob/python3/resources/tutorial.md">bit.ly/IKqqAS</a></h3>
       </div>
     </article>
 
@@ -139,37 +140,49 @@ Type "help", "copyright", "credits" or "license" for more information.
     <article class='slide'>
       <h2>Maths</h2>
       <ul>
-        <li>Addition <code>+</code></li>
-        <li>Subtraction <code>-</code></li>
-        <li>Multiplication <code>*</code></li>
-        <li>Division <code>/</code>
-          <pre>1 / 2
-1.0 / 2
-3/4 + 1/4
-3.0/4 + 1.0/4</pre></li>
+        <li>Addition <code>2 + 2</code></li>
+        <li>Subtraction <code>0 - 2</code></li>
+        <li>Multiplication <code>2 * 3</code></li>
+        <li>Division <code>1 / 2</code></li>
         <li>Order of operations <code>2 * (3 + 1)</code></li>
+        <li>Integers don't have a decimal place, floats have a decimal place</li>
       </ul>
     </article>
 
 
+    <article class='slide'>
+      <h2>Types</h2>
+      <p>Just like maths, except any data type.</p>
+      <p>Find what data type something is using <code>type()</code></p>
+      <pre>>>> type(4)
+&lt;class 'int'>
+>>> type(4.0)
+&lt;class 'float'>
+type("bob")
+&lt;class 'str'></pre>
+    </article>
+
 
     <article class='slide'>
-      <h2>Types and Functions</h2>
-      <p>Find what data type something is using <code>type()</code></p>
+      <h2>Functions</h2>
       <p>Functions make work re-usable</p>
       <ul>
         <li>Function name</li>
         <li>Input "arguments"</li>
         <li>Output "return value"</li>
       </ul>
+      <pre>>>> type(4)
+&lt;class 'int'>
+>>> max(4, 1)
+4
+</pre>
     </article>
-
 
 
     <article class='slide'>
       <h2>Variables</h2>
       <p>Just like maths, except any data type.</p>
-      <pre>type(4)
+      <pre>
 x = 4
 x
 type(x)
@@ -182,22 +195,21 @@ type(x)
 
     <article class='slide'>
       <h2>Strings</h2>
-      <p>Are text, surrounded by balanced quotes (<code>"</code> or <code>'</code>)</p>
+      <p>Are bits of text, surrounded by quotes (<code>"</code> or <code>'</code>)</p>
       <pre>type("Hello")
 type(1)
 type("1")</pre>
       <p>Concatenate strings with <code>"Hello" + "World"</code></p>
-      <p>Print strings with <code>print "Hello"</code></p>
-      <p>Convert other types to strings using <code>str("Hello")</code></p>
+      <p>print(strings with <code>print("Hello")</code></p>)
+      <p>Convert other types to strings using <code>str(1)</code></p>
       <p>Find out how long a string is with <code>len("Hello")</code></p>
       <p>Multiply strings with <code>"Hello" * 5</code></p>
     </article>
 
     <article class='slide'>
       <h2>Strings</h2>
-      <p>Escape quotes with <code>'I\'m a happy camper'</code></p>
-      <p><code>""</code> is an empty string.</p>
-      <p>To get a new line use <code>print "One\nTwo"</code>
+      <p>Use either <code>'</code> or <code>"</code>
+        <pre>"I'm hungry"</pre>
       <p>For multi-line strings you can use:
         <pre>"""I am
 a long
@@ -220,53 +232,39 @@ string"""</pre></p>
 
 
     <article class='slide'>
-      <h2>Flow control</h2>
+      <h2>Making choices</h2>
       <p>Use <code>if</code> statements to make decisions and conditionally execute code.</p>
       <pre>colour = "orange"
 if colour == "green" or colour == "red":
-    print "Christmas colour!"
+    print("Christmas colour!")
 elif colour == "black" or colour == "orange":
-    print "Halloween colour!"
+    print("Halloween colour!")
 elif colour == "pink":
-    print "Valentine's Day colour!"
+    print("Valentine's Day colour!")
 else:
-    print "Some other colour!"
+    print("Some other colour!")
 </pre>
       <div class="protip"><strong>PRO TIP:</strong> Use the <code>tab</code> key to indent code blocks <strong>4</strong> spaces.</div>
     </article>
 
     <article class='slide'>
-      <h2>Flow control</h2>
-      <p>Logically combine two expressions</p>
+      <h2>Making choices</h2>
+      <p>Combine two expressions</p>
       <p>With <code>and</code>, <em>both</em> must be True</p>
       <p>With <code>or</code>, <em>either</em> can be True</p>
       <pre>temperature = 29
 if temperature &gt; 15 and temperature &lt; 25:
-    print "It's nice and cozy in here!"
+    print("It's nice and cozy in here!")
 else:
-    print "Too extreme for me."
+    print("Too extreme for me.")
 </pre>
     </article>
-
-    <article class='slide'>
-      <h2>Writing functions</h2>
-      <pre>>>> def add(x, y):
-...     result = x + y
-...     return result
-...
-print add(1234, 5678)</pre>
-      <p>Remember to indent the code block inside your function.</p>
-      <p>Functions don't need to have arguments, or need to return a value.</p>
-    </article>
-
 
 
 
     <article class='slide title-slide'>
         <h1>New Stuff</h1>
     </article>
-
-
 
 
     <article class='slide title-slide'>
@@ -276,23 +274,26 @@ print add(1234, 5678)</pre>
     <article class='slide'>
       <h2>Lists</h2>
       <p>Store data where order matters.</p>
-      <p>Indexed starting with <em>0</em>.</p>
-
       <pre>>>> my_list = []
 >>> my_list
 []
 >>> your_list = ["a", "b", "c", 1, 2, 3]
 >>> your_list
-['a', 'b', 'c', 1, 2, 3]</pre>
+['a', 'b', 'c', 1, 2, 3]
+
+>>> type(my_list)
+&lt;class 'list'>
+</pre>
     </article>
 
     <article class='slide'>
       <h2>Access and adding elements</h2>
+      <p>Indexed starting with <em>0</em>.</p>
       <p><code>my_list.append('new')</code> to add to the end.</p>
       <p><code>my_list.insert(0, 'new')</code> to insert at the start.</p>
       <p><code>my_list[0] = 'new'</code> to change the first element.</p>
       <p><code>len(my_list)</code> to get the length.</p>
-      <p><code>'new' in my_list</code> to check containment.</p>
+      <p><code>'thing' in my_list</code> to check containment.</p>
     </article>
 
     <article class='slide'>
@@ -319,9 +320,55 @@ print add(1234, 5678)</pre>
     </article>
 
 
+    <article class='slide title-slide'>
+        <h1>Dictionaries <code>{}</code></h1>
+    </article>
+
+    <article class='slide'>
+      <h2>Dictionaries</h2>
+      <p>Use dictionaries to store key/value pairs.</p>
+      <p>Dictionaries do not guarantee ordering.</p>
+      <p>A given key can only have one value, but different keys can have the same value.</p>
+
+      <pre>>>> my_dict = {}
+>>> my_dict
+{}
+>>> your_dict = {"Alice" : "chocolate", "Bob" : "strawberry", "Cara" : "mint chip"}
+>>> your_dict
+{'Bob': 'strawberry', 'Cara': 'mint chip', 'Alice': 'chocolate'}
+
+>>> type(my_dict)
+&lt;class 'dict'></pre>
+    </article>
+
+    <article class='slide'>
+      <h2>Access and adding elements</h2>
+      <p><code>your_dict["Alice"]</code> to get the value for a key.</p>
+      <p><code>your_dict["Dora"] = "vanilla"</code> to set or replace a key &amp; value.</p>
+      <p><code>'Alice' in your_dict</code> to check containment (only keys!).</p>
+      <p><code>len(your_dict)</code> to get the number of items.</p>
+      <p><code>your_dict.get("Eve")</code> to get the value for a key, without throwing an error if it doesn't exist.</p>
+    </article>
+
+    <article class='slide'>
+      <h2>Access and adding elements</h2>
+      <p><code>your_dict.keys()</code> returns all the keys.</p>
+      <p><code>your_dict.values()</code> returns all the values.</p>
+      <p>They don't return lists, but you can convert it to a list using <code>list()</code>:</p>
+      <pre>>>> your_dict = {"Alice" : "chocolate", "Bob" : "strawberry", "Cara" : "mint chip"}
+>>> your_dict.keys()
+dict_keys('Bob', 'Cara', 'Alice')
+>>> your_dict.values()
+dict_keys('chocolate', 'strawberry', 'mint chip')
+>>> list(your_dict.keys())
+['Bob', 'Cara', 'Alice']
+>>> list(your_dict.values())
+['chocolate', 'strawberry', 'mint chip']
+    </article>
+
 
     <article class='slide title-slide'>
-        <h1>Loops and more flow control</h1>
+        <h1>Loops</h1>
     </article>
 
     <article class='slide'>
@@ -329,7 +376,7 @@ print add(1234, 5678)</pre>
       <p>Use a <code>for</code> loop to do something to every element in a list.</p>
       <pre>>>> names = ["Jessica", "Adam", "Liz"]
 >>> for name in names:
-...     print name
+...     print(name)
 ...
 Jessica
 Adam
@@ -344,8 +391,20 @@ Liz</pre>
 ...     if name[0] in "AEIOU":
 ...         vowel_names.append(name)
 ...
->>> print vowel_names
+>>> print(vowel_names)
 ['Alice', 'Ellen']</pre>
+    </article>
+
+    <article class='slide'>
+      <h2>Using a counter</h2>
+      <p>Create a variable and update it during a loop.</p>
+      <pre>>>> prices = [1.5, 2.35, 5.99, 16.49]
+>>> total = 0
+>>> for price in prices:
+...     total = total + price
+...
+>>> total
+26.33</pre>
     </article>
 
     <article class='slide'>
@@ -354,7 +413,7 @@ Liz</pre>
 >>> numbers = [1, 2, 3]
 >>> for letter in letters:
 ...     for number in numbers:
-...         print letter * number
+...         print(letter * number)
 ...
 a
 aa
@@ -377,76 +436,17 @@ ccc</pre>
 [0, 1, 2, 3, 4]</pre></p>
     </article>
 
-    <article class='slide'>
-      <h2><code>while</code> loops</h2>
-      <p>Keep looping as long as a condition is <code>True</code>.</p>
-      <pre>>>> i = 0
->>> while i &lt; 5:
-...     print i
-...     i = i + 1
-...
-0
-1
-2
-3
-4</pre>
-    </article>
-
-    <article class='slide'>
-      <h2><code>break</code></h2>
-      <p>Use <code>break</code> to break out of a <code>for</code> or <code>while</code> loop early.</p>
-      <pre>>>> i = 0
->>> while True:
-...     print i
-...     i = i + 1
-...     if i > 3:
-...         break
-0
-1
-2
-3</pre>
-    </article>
 
     <article class='slide'>
       <h2>Get user input</h2>
-      <p>Use <code>raw_input()</code> to prompt the user for a string.</p>
-      <pre>>>> input = raw_input("Please type something? ")
->>> print "You said: " + input
+      <p>Use <code>input()</code> to prompt the user for a string.</p>
+      <pre>>>> what = input("Please type something? ")
+>>> print("You said: " + what)
 
 Please type something? Hello
 You said: Hello
 </pre>
     </article>
-
-
-
-    <article class='slide title-slide'>
-        <h1>Dictionaries <code>{}</code></h1>
-    </article>
-
-    <article class='slide'>
-      <h2>Dictionaries</h2>
-      <p>Use dictionaries to store key/value pairs.</p>
-      <p>Dictionaries do not guarantee ordering.</p>
-      <p>A given key can only have one value, but multiple keys can have the same value.</p>
-
-      <pre>>>> my_dict = {}
->>> my_dict
-{}
->>> your_dict = {"Alice" : "chocolate", "Bob" : "strawberry", "Cara" : "mint chip"}
->>> your_dict
-{'Bob': 'strawberry', 'Cara': 'mint chip', 'Alice': 'chocolate'}</pre>
-    </article>
-
-    <article class='slide'>
-      <h2>Access and adding elements</h2>
-      <p><code>your_dict["Alice"]</code> to get the value for a key.</p>
-      <p><code>your_dict["Dora"] = "vanilla"</code> to set or replace a key &amp; value.</p>
-      <p><code>'Alice' in your_dict</code> to check containment.</p>
-      <p><code>len(your_dict)</code> to get the number of items.</p>
-      <p><code>your_dict.get("Eve")</code> to get the value for a key, without throwing an error if it doesn't exist.</p>
-    </article>
-
 
 
     <article class='slide title-slide'>
@@ -476,7 +476,7 @@ You said: Hello
     <article class='slide slide-subhead title-slide'>
       <div class="vcenter">
         <h1>NZ Regions</h1>
-        <h3><a href="https://github.com/nzgather/python-101-workshop/blob/master/resources/nz_regions.py">nz_regions.py</a></h3>
+        <h3><a href="https://github.com/nzgather/python-101-workshop/blob/python3/resources/nz_regions.py">nz_regions.py</a></h3>
       </div>
     </article>
 
@@ -488,13 +488,12 @@ You said: Hello
 
     <article class='slide'>
       <h2>Practise</h2>
-      <p>CodingBat is a little different from using Python at the command line or in a text editor like we've been doing. When you use CodingBat, you type your code into a web page and click 'Go' when you want that code to run. You'll still need to make sure you indent all your code to the same level.
-For each CodingBat question, you will write a function. CodingBat will run your function with a few different inputs, and will compare the output of the function you wrote to what it knows is the correct answer. If all the outputs are correct for all the inputs, you've written the function correctly!
-We like CodingBat because it gives you immediate feedback on how close your function is to being correct.
+      <p>CodeAcademy exercises <a href="http://www.codecademy.com/courses/python-beginner-en-kSQwt">bit.ly/1kd3MTJ</a></p>
 
-      <p>CodingBat is a useful site  exercises: <a href="http://codingbat.com/home/bostonpythonworkshop@gmail.com/Saturday">bit.ly/Iz7zJA</a></h5>
-      <p>Data Types cheat sheet: <a href="https://github.com/nzgather/python-101-workshop/blob/master/resources/data_types.md">bit.ly/1gQb6z2</a></p>
-      <p>Python Loops cheat sheet: <a href="https://github.com/nzgather/python-101-workshop/blob/master/resources/loops.md">bit.ly/1iN6XQL</a></p>
+      <p>CodeAcademy is a little different from using Python at the command line or in a text editor like we've been doing. When you use CodeAcademy, you type your code into a web page and click 'Submit' when you want that code to run. You'll still need to make sure you indent all your code to the same level.
+
+      <p>Data Types cheat sheet: <a href="https://github.com/nzgather/python-101-workshop/blob/python3/resources/data_types.md">bit.ly/1gQb6z2</a></p>
+      <p>Python Loops cheat sheet: <a href="https://github.com/nzgather/python-101-workshop/blob/python3/resources/loops.md">bit.ly/1iN6XQL</a></p>
     </article>
 
 
@@ -504,10 +503,10 @@ We like CodingBat because it gives you immediate feedback on how close your func
 
     <article class='slide'>
       <h2>Keep Learning</h2>
-      <p>Think Python: <a href="http://openbookproject.net/thinkcs/python/english2e/">openbookproject.net/thinkcs/python/english2e/</a></p>
+      <p>Think Python: <a href="http://openbookproject.net/thinkcs/python/english3e/">openbookproject.net/thinkcs/python/english3e/</a></p>
       <p>Learn Python the Hard Way: <a href="http://learnpythonthehardway.org">learnpythonthehardway.org</a></p>
       <p>Learn Python with Games: <a href="http://inventwithpython.com/chapters/">inventwithpython.com/chapters/</a></p>
-      <p>The ofﬁcial Python tutorial: <a href="http://docs.python.org/tutorial/">docs.python.org/tutorial/</a></p>
+      <p>The Python documentation: <a href="https://docs.python.org">docs.python.org</a></p>
     </article>
 
     <article class='slide'>
@@ -535,7 +534,7 @@ We like CodingBat because it gives you immediate feedback on how close your func
 
     <article class='slide'>
       <h2>Thank you!</h2>
-      <p>The content for this workshop was adapted from the <a href="https://openhatch.org/wiki/Boston_Python_Workshop_6">Boston Python Workshop</a> (CC-BY) by <a href="https://github.com/organizations/nzgather">Gather</a> to be used with New Zealand students.</p>
+      <p>The content for this workshop was adapted from the <a href="https://openhatch.org/wiki/Boston_Python_Workshop_8">Boston Python Workshop</a> (CC-BY) by <a href="https://github.com/organizations/nzgather">Gather</a> to be used with New Zealand students.</p>
 
       <p>Visit <a href="http://gathergather.co.nz/community">Gather Community</a> for help from our mentors after today!</p>
 
