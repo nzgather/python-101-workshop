@@ -13,15 +13,7 @@
 * **addition**: 2 + 2
 * **subtraction**: 0 - 2
 * **multiplication**: 2 * 3
-
-#### Math: division
-
-```
->>> 4 / 2
-2
->>> 1 / 2
-0.5
-```
+* **division**: 1 / 2
 
 #### Types
 
